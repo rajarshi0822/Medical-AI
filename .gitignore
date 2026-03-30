@@ -1,0 +1,7 @@
+.env
+.venv
+node_modules/
+.next/
+__pycache__/
+*.pyc
+vercel_logs.txt
