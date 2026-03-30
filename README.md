@@ -37,7 +37,7 @@ This isn't just another AI wrapper—it's an optimized, high-performance tool bu
 | **Frontend** | Next.js 15 (App Router), React, TypeScript | Lightning-fast rendering, strict type-safety, and robust component model. |
 | **Styling** | Tailwind CSS v4 | Rapid UI development, responsive design, and scalable styling utilities. |
 | **Backend** | Python, FastAPI | High-performance async processing, perfect for rapid API development. |
-| **AI Engine** | Google Gemini 2.0 Flash | Incredible inference speed and nuanced medical context comprehension. |
+| **AI Engine** | NVIDIA API | Incredible inference speed and nuanced medical context comprehension. |
 | **Integrations** | Web Speech API | Native browser support for voice-to-text without external dependencies. |
 
 ## 🚀 Getting Started
