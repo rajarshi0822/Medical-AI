@@ -47,7 +47,7 @@ Follow these steps to run the application locally.
 ### Prerequisites
 - **Node.js**: v18.0 or higher
 - **Python**: v3.8 or higher
-- **Gemini API Key**: Grab one for free from [Google AI Studio](https://aistudio.google.com/apikey).
+- **NVIDIA API Key**
 
 ### 🛠️ One-Click Global Startup (Windows)
 For the fastest setup, simply run our powershell script in the root directory:
