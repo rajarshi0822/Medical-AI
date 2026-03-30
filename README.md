@@ -5,7 +5,7 @@
   [![Next.js 15](https://img.shields.io/badge/Next.js_15-000000?style=for-the-badge&logo=nextdotjs&logoColor=white)](https://nextjs.org/)
   [![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white)](https://fastapi.tiangolo.com/)
   [![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)](https://tailwindcss.com/)
-  [![Google Gemini AI](https://img.shields.io/badge/Gemini_AI_2.0-4285F4?style=for-the-badge&logo=google&logoColor=white)](https://aistudio.google.com/)
+  [![NVIDIA NIM AI](https://img.shields.io/badge/NVIDIA_NIM_AI-76B900?style=for-the-badge&logo=nvidia&logoColor=white)](https://build.nvidia.com/)
   [![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white)](https://www.typescriptlang.org/)
 </div>
 
@@ -17,7 +17,7 @@
 
 ## 🌟 Overview
 
-When every second counts, the **AI Emergency Triage App** provides instant, easily digestible step-by-step stabilization instructions. Designed with a mobile-first philosophy, it leverages edge-cached responses for common emergencies (zero AI latency) and smoothly falls back to Google's Gemini 2.0 Flash for handling complex or uniquely described situations.
+When every second counts, the **AI Emergency Triage App** provides instant, easily digestible step-by-step stabilization instructions. Designed with a mobile-first philosophy, it leverages edge-cached responses for common emergencies (zero AI latency) and smoothly falls back to NVIDIA NIM AI for handling complex or uniquely described situations.
 
 This isn't just another AI wrapper—it's an optimized, high-performance tool built specifically for high-stress scenarios where clarity and speed are paramount.
 
@@ -37,7 +37,7 @@ This isn't just another AI wrapper—it's an optimized, high-performance tool bu
 | **Frontend** | Next.js 15 (App Router), React, TypeScript | Lightning-fast rendering, strict type-safety, and robust component model. |
 | **Styling** | Tailwind CSS v4 | Rapid UI development, responsive design, and scalable styling utilities. |
 | **Backend** | Python, FastAPI | High-performance async processing, perfect for rapid API development. |
-| **AI Engine** | NVIDIA API | Incredible inference speed and nuanced medical context comprehension. |
+| **AI Engine** | NVIDIA NIM AI | Incredible inference speed and nuanced medical context comprehension. |
 | **Integrations** | Web Speech API | Native browser support for voice-to-text without external dependencies. |
 
 ## 🚀 Getting Started
@@ -47,7 +47,7 @@ Follow these steps to run the application locally.
 ### Prerequisites
 - **Node.js**: v18.0 or higher
 - **Python**: v3.8 or higher
-- **NVIDIA API Key**
+- **NVIDIA API Key**: Grab one for free from [NVIDIA Build](https://build.nvidia.com/).
 
 ### 🛠️ One-Click Global Startup (Windows)
 For the fastest setup, simply run our powershell script in the root directory:
@@ -65,7 +65,7 @@ python -m venv venv
 pip install -r requirements.txt
 cp .env.example .env
 
-# Don't forget to add your GEMINI_API_KEY inside the .env file!
+# Don't forget to add your NVIDIA_API_KEY inside the .env file!
 
 python -m uvicorn main:app --reload --port 8000
 ```
